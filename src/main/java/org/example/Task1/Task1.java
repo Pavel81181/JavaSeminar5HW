@@ -3,10 +3,7 @@ package org.example.Task1;
 import java.util.HashMap;
 import java.util.Map;
 
-//1) Подсчитать количество вхождения каждого слова
-//        Пример:
-//        Россия идет вперед всей планеты. Планета — это не Россия.
-//        toLoverCase().
+
 public class Task1 {
     public static void main(String[] args) {
         String str = "Россия идет вперед всей планеты. Планета — это не Россия.";
@@ -14,7 +11,7 @@ public class Task1 {
     }
 
     /**
-     * @apiNote Вывод слов в консоль
+     * @apiNote Вывод на экран
      * @param map
      */
     private static void printWords(Map<String, Integer> map) {
